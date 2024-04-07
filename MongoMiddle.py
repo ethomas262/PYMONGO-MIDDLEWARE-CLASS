@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 class mongoDriver:
-    def __init__(self): #Constructor with static values to spin up new db client accuser 
+    def __init__(self): #Constructor with static values to spin up new db client
         
         #declare variables and credentials for connecting to database
         user = "sampleUsername"
